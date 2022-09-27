@@ -44,10 +44,10 @@ body {
   grid-area: article2;
 }
 .article3 {
-  background: #fbb22f;
+  background: #ec3437;
   grid-area: article3;
 }
 .article4 {
-  background: #ec3437;
+  background: #fbb22f;
   grid-area: article4;
 }
