@@ -1,0 +1,53 @@
+html,
+body,
+.wrapper {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #2b2e56;
+}
+.wrapper {
+  width: calc(100% - 30px);
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: (3, 1fr);
+  grid-template-areas:
+    "aside header header section"
+    "aside article1 article2 nav"
+    "aside article3 article4 nav";
+  gap: 10px;
+}
+.aside {
+  background: #6dbe4f;
+  grid-area: aside;
+}
+.header {
+  background: #6dbe4f;
+  grid-area: header;
+}
+.nav {
+  background: #6dbe4f;
+  grid-area: nav;
+}
+.section {
+  background: #ec3437;
+  grid-area: section;
+}
+.article1 {
+  background: #fbb22f;
+  grid-area: article1;
+}
+.article2 {
+  background: #ec3437;
+  grid-area: article2;
+}
+.article3 {
+  background: #fbb22f;
+  grid-area: article3;
+}
+.article4 {
+  background: #ec3437;
+  grid-area: article4;
+}
